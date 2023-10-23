@@ -13,5 +13,78 @@
   <body>
     <!-- star -->
     <div class="bg__sky"><svg class="bg__star"></svg></div>
+    <header>
+      <h1>당신의 별자리별 장단점을 알아봐요!</h1>
+      <nav class="zodiac-list">
+        <a href="./detail.html?zodiac=aquarius">♒Aquarius</a>
+        <a href="./detail.html?zodiac=pisces">♓Pisces</a>
+        <a href="./detail.html?zodiac=aries">♈Aries</a>
+        <a href="./detail.html?zodiac=taurus">♉Taurus</a>
+        <a href="./detail.html?zodiac=gemini">♊Gemini</a>
+        <a href="./detail.html?zodiac=cancer">♋Cancer</a>
+        <a href="./detail.html?zodiac=leo">♌Leo</a>
+        <a href="./detail.html?zodiac=virgo">♍Virgo</a>
+        <a href="./detail.html?zodiac=libra">♎Libra</a>
+        <a href="./detail.html?zodiac=scorpius">♏Scorpius</a>
+        <a href="./detail.html?zodiac=sagittarius">♐Sagittarius</a>
+        <a href="./detail.html?zodiac=capricornus">♑Capricornus</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- ♈ Aries (Ram): March 21–April 19
+  
+          ♉ Taurus (Bull): April 20–May 20
+  
+          ♊ Gemini (Twins): May 21–June 21
+  
+          ♋ Cancer (Crab): June 22–July 22
+  
+          ♌ Leo (Lion): July 23–August 22
+  
+          ♍ Virgo (Virgin): August 23–September 22
+  
+          ♎ Libra (Balance): September 23–October 23
+  
+          ♏ Scorpius (Scorpion): October 24–November 21
+  
+          ♐ Sagittarius (Archer): November 22–December 21
+  
+          ♑ Capricornus (Goat): December 22–January 19
+  
+          ♒ Aquarius (Water Bearer): January 20–February 18
+  
+          ♓ Pisces (Fish): February 19–March 20 -->
+
+      <form class="date-form">
+        <h2 class="date-form__title">생일이 언제인가요?</h2>
+        <ul class="date-form__input-list">
+          <li class="date-form__input-item">
+            <label for="month">월</label>
+            <input
+              class="date-input"
+              id="month"
+              type="number"
+              placeholder="달을 입력해주세요"
+            />
+          </li>
+          <li class="date-form__input-item">
+            <label for="day">일</label>
+            <input
+              class="date-input"
+              id="day"
+              type="number"
+              placeholder="일을 입력해주세요"
+            />
+          </li>
+        </ul>
+        <button class="date-submit">두근두근</button>
+      </form>
+    </main>
+    <footer>
+      <a class="email" href="mailto:kimmingyo0818@gmail.com"
+        >&copy;2023 Kim mingyo</a
+      >
+    </footer>
   </body>
 </html>
