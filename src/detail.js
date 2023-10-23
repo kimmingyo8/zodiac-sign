@@ -12,9 +12,12 @@ const $engName = document.querySelector('.info__eng');
 const $date = document.querySelector('.info__day');
 const $featureList = document.querySelectorAll('.content__list');
 const $backBtn = document.querySelector('.back-btn');
+const $shareBtn = document.querySelector('.share-btn');
 
 const $positiveList = $featureList[0];
 const $negativeList = $featureList[1];
+
+const defaultUrl = 'https://kr-zodiac-sign.netlify.app/';
 
 const { start, end } = data;
 const range = dateRangeFormat(start, end);
@@ -46,4 +49,24 @@ $date.innerText = range;
 
 $backBtn.addEventListener('click', () => {
   window.history.back();
+});
+
+const shareData = {
+  title: '당신의 별자리 성격의 장단점을 알아봐요!',
+  text: '당신의 별자리와 성격의 장단점을 알아보고, 새로운 당신의 모습을 알아보세요!',
+  url: defaultUrl,
+};
+
+// share기능을 사용하지 못한다면 링크 복사 처리
+$shareBtn.addEventListener('click', async () => {
+  if (typeof navigator.share === 'undefined') {
+    navigator.clipboard.writeText(defaultUrl);
+    alert('링크가 복사되었습니다!');
+  } else {
+    try {
+      await navigator.share(shareData);
+    } catch (err) {
+      alert(err);
+    }
+  }
 });
