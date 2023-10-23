@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 576 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<g id="무제" vectornator:layerName="무제">
+<path d="M352 224L305.5 224C260.5 224 224 260.5 224 305.5C224 327.8 234.3 339.8 243.2 346C250 350.7 256 358 256 366.3C256 376.1 248 384.1 238.2 384.1L235.7 384.1C233.3 384.1 230.9 383.7 228.6 382.7C210.8 374.8 128 333.4 128 240C128 160.5 192.5 96 272 96L352 96L352 34.7C352 15.5 367.5 0 386.7 0C395.3 0 403.5 3.2 409.9 8.9L548.1 133.3C555.7 140.1 560 149.8 560 160C560 170.2 555.7 179.9 548.1 186.7L409.1 311.8C403.2 317.1 395.6 320 387.7 320L384 320C366.3 320 352 305.7 352 288L352 224ZM80 96C71.2 96 64 103.2 64 112L64 432C64 440.8 71.2 448 80 448L400 448C408.8 448 416 440.8 416 432L416 384C416 366.3 430.3 352 448 352C465.7 352 480 366.3 480 384L480 432C480 476.2 444.2 512 400 512L80 512C35.8 512 0 476.2 0 432L0 112C0 67.8 35.8 32 80 32L128 32C145.7 32 160 46.3 160 64C160 81.7 145.7 96 128 96L80 96Z" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="path"/>
+</g>
+</svg>

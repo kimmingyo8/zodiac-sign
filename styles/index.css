@@ -28,6 +28,7 @@ button {
 
 /* ========= header ======== */
 header {
+  position: relative;
   width: 100%;
   padding: 40px;
   border-bottom: 1px solid var(--border);
@@ -148,6 +149,12 @@ footer a {
     gap: 40px;
   }
 
+  footer {
+    position: relative;
+  }
+}
+
+@media screen and (max-height: 760px) {
   footer {
     position: relative;
   }

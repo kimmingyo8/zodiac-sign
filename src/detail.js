@@ -11,6 +11,7 @@ const $krName = document.querySelector('.info__kr');
 const $engName = document.querySelector('.info__eng');
 const $date = document.querySelector('.info__day');
 const $featureList = document.querySelectorAll('.content__list');
+const $backBtn = document.querySelector('.back-btn');
 
 const $positiveList = $featureList[0];
 const $negativeList = $featureList[1];
@@ -42,3 +43,7 @@ $emoji.innerText = data.emoji;
 $krName.innerText = data.kr;
 $engName.innerText = data.name;
 $date.innerText = range;
+
+$backBtn.addEventListener('click', () => {
+  window.history.back();
+});
