@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /assets/
+
+User-agent: Yeti
+Disallow: /assets/
+
+User-agent: Bingbot
+Disallow: /assets/
