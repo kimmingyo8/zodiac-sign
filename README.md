@@ -13,6 +13,8 @@
   - 링크 복사 or SNS 공유
 - 입력값 검사 후 페이지 이동
 - 공유 시 유입률 높이기 위해 OG(OpenGraph)사용
+- 기본적인 sitemap.xml, robot.txt 적용
+- 개발 기간 총 12시간
 
 ### 🛠 Stack
 <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
